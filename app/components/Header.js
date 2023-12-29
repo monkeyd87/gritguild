@@ -2,18 +2,19 @@
 import {Navbar,Nav,Container,Form} from 'react-bootstrap'
 const Header = ()=>{
     return(
-        <Navbar className='bg-emerald-900 '>
-            <Container className=' justify-content-start rounded p-1 border-b-orange-400' fluid>
+        <Navbar className='bg-blue-800  border-b-8 shadow border-slate-400 '>
+            <Container className='  rounded p-3' fluid>
                 <Navbar.Brand className='text-white'>GritGild</Navbar.Brand>
-                <div className=' w-fit'>
+                <Nav className='gap-11'>
+                    <Nav.Link className='text-white hover:bg-blue-900 rounded hover:text-slate-50'>Dashboard</Nav.Link>
+                    <Nav.Link className='text-white hover:bg-blue-900 rounded'>Friends</Nav.Link>
+                    <Nav.Link className='text-white hover:bg-blue-900 rounded'>Party</Nav.Link>
+                    <Nav.Link className='text-white hover:bg-blue-900 rounded'>Explore</Nav.Link>
+
+                </Nav>
+                <div className=' border-yellow-800 w-fit'>
                     <Form.Control className='rounded-pill'/>
                 </div>
-                <Nav className=''>
-                    <Nav.Link className='text-light hover:bg-emerald-950 rounded'>Dashboard</Nav.Link>
-                    <Nav.Link className='text-light hover:bg-emerald-950 rounded'>Friends</Nav.Link>
-                    <Nav.Link className='text-light hover:bg-emerald-950 rounded'>Party</Nav.Link>
-                    <Nav.Link className='text-light hover:bg-emerald-950 rounded'>Explore</Nav.Link>
-                </Nav>
             </Container>
         </Navbar>
     )
