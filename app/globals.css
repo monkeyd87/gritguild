@@ -25,3 +25,8 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+
+body{
+  background-color: #004bc3;
+}
