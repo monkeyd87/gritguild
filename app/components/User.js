@@ -4,7 +4,7 @@ import { Figure } from "react-bootstrap";
 export const User = ({name,hp,mp,lv})=>{
     return(
     <>
-        <div className="d-flex  border ">
+        <div className="d-flex   ">
             <div className="">
                 <Figure.Image
                     src='assets/images/image.png'
